@@ -31,6 +31,9 @@ body {
   border-radius: 5px;
   width: 100%; }
 
+#industria button {
+  width: 200px; }
+
 #industria .productos {
   background-color: #FFFFFF;
   border-radius: 5px;
@@ -55,6 +58,45 @@ body {
   flex-direction: column;
   justify-content: center; }
 
+#distinciones {
+  background-color: #FFFFFF;
+  padding: 20px 0px; }
+  #distinciones .card {
+    border: none; }
+    #distinciones .card img {
+      height: 60px;
+      margin: 20px auto 0px auto; }
+    #distinciones .card h4 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      text-align: center;
+      line-height: 20px; }
+    #distinciones .card p {
+      font-family: "Poppins", sans-serif;
+      color: #000000;
+      font-size: 14px;
+      text-align: center; }
+
+#comunicate {
+  background-color: #797979;
+  padding: 20px 0px; }
+
+#destacados {
+  background-color: #797979;
+  padding: 20px 0px; }
+  #destacados h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center; }
+  #destacados p {
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center; }
+
 #nosotros {
   background-color: #ff0000;
   color: #FFFFFF; }
@@ -62,7 +104,7 @@ body {
     border-radius: 5px; }
 
 #marcas {
-  background-color: #797979;
+  background-color: #000000;
   height: 150px; }
 
 #mapa {

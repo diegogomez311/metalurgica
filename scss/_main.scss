@@ -38,6 +38,9 @@ body{
         border-radius: 5px;
         width: 100%;          
     }
+    button{
+        width: 200px;        
+    }
     .productos{
         background-color: $blanco;
         border-radius: 5px;
@@ -67,6 +70,56 @@ body{
     }
 }
 
+#distinciones{
+    background-color: $blanco;
+    padding: 20px 0px;
+    .card{
+        border: none;    
+        img{
+            height: 60px;
+            margin: 20px auto 0px auto;     
+        }
+        h4{
+            font-family: $poppins;           
+            font-weight: 700;
+            font-size: 20px;
+            text-align: center;
+            line-height: 20px;
+        }
+        p{
+            font-family: $poppins;
+            color: $negro;
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+}
+
+#comunicate{
+    background-color: $gris;
+    padding: 20px 0px; 
+}
+
+#destacados{
+    background-color: $gris;
+    padding: 20px 0px;
+    h4{
+        font-family: $poppins;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+    }
+    p{
+        font-family: $poppins;
+        color: $negro;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+
+
 #nosotros{
     background-color: $rojo;
     color: $blanco;
@@ -75,7 +128,7 @@ body{
     }  
 }
 #marcas{
-    background-color: $gris;
+    background-color: $negro;
     height: 150px;
 }
 #mapa{    
