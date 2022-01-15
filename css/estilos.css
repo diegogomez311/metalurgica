@@ -27,36 +27,36 @@ body {
 #nav {
   background-color: #F8F9FA; }
 
-#industria img {
-  border-radius: 5px;
-  width: 100%; }
-
-#industria button {
-  width: 200px; }
-
-#industria .productos {
-  background-color: #FFFFFF;
-  border-radius: 5px;
-  text-align: center; }
-  #industria .productos p {
-    color: #000000;
-    font-size: 14px; }
-  #industria .productos .productosBox {
+#industria {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  #industria img {
+    border-radius: 5px;
+    width: 100%; }
+  #industria button {
+    width: 50%; }
+  #industria .productos {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center; }
+    #industria .productos p {
+      color: #000000;
+      font-size: 14px; }
+    #industria .productos .productosBox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+    #industria .productos ul {
+      list-style: none; }
+  #industria .servicios {
+    background-color: #000000;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center; }
-  #industria .productos ul {
-    list-style: none; }
-
-#industria .servicios {
-  background-color: #000000;
-  text-align: center;
-  color: #FFFFFF;
-  border-radius: 5px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
 
 #distinciones {
   background-color: #FFFFFF;
@@ -163,6 +163,6 @@ footer {
 
 /*MQUERY*/
 @media only screen and (max-width: 768px) {
-  #industria .productos {
-    display: flex;
-    flex-direction: column; } }
+  #industria {
+    margin-top: 10px;
+    margin-bottom: 10px; } }
