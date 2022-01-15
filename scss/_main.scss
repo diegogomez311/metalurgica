@@ -31,7 +31,6 @@ body{
 }
 #nav{
     background-color: #F8F9FA;
-
 }
 #industria{
     img{
@@ -69,7 +68,6 @@ body{
         justify-content: center;
     }
 }
-
 #distinciones{
     background-color: $blanco;
     padding: 20px 0px;
@@ -94,12 +92,10 @@ body{
         }
     }
 }
-
 #comunicate{
     background-color: $gris;
     padding: 20px 0px; 
 }
-
 #destacados{
     background-color: $gris;
     padding: 20px 0px;
@@ -117,9 +113,6 @@ body{
         text-align: center;
     }
 }
-
-
-
 #nosotros{
     background-color: $rojo;
     color: $blanco;
@@ -134,7 +127,6 @@ body{
 #mapa{    
     height: 450px;
 }
-
 footer{   
     background-color: $negro;
     h3{
@@ -148,7 +140,6 @@ footer{
         margin-left: 0%;
         
     }
-   
     .c1{
         img{
             width: 120px;
@@ -171,10 +162,8 @@ footer{
         }
         button{
             margin-left: 10px;
-            margin-top: 3px;
-         ;
+            margin-top: 3px;    
         }
-     
     }
     .c3{
         img{            
@@ -212,4 +201,14 @@ footer{
 }
 .pfb{
     @include poppins (14px, $regular ,$blanco)
+}
+
+/*MQUERY*/
+@media only screen and (max-width: 768px) {
+  #industria{
+    .productos{
+        display: flex;
+        flex-direction: column;
+    }
+  }
 }
