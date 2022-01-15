@@ -1,0 +1,161 @@
+body{
+    background-color: $gris;
+    a{
+        color:$blanco;
+        text-decoration: none;
+    }
+    a:hover{
+        color: $rojo;
+    }
+    h1{
+        font-family: $poppins;
+        font-weight: 600;
+        font-size: 26px;
+    }
+    h2{
+        font-family: $poppins;
+        font-weight: 800;
+        font-size: 24px;        
+    }
+    h3{
+        font-family: $poppins;
+        font-weight: 400;
+        font-size: 16px;    
+    }
+    p{
+        font-family: $poppins;
+        color: $blanco;
+        font-family: 500;
+        font-size: 14px;
+    }
+}
+#nav{
+    background-color: #F8F9FA;
+
+}
+#industria{
+    img{
+        border-radius: 5px;            
+    }
+    .productos{
+        background-color: $blanco;
+        border-radius: 5px;
+        text-align: center;
+        p{
+            color: $negro;
+            font-size: 18px;
+        }      
+        .productosBox{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        ul{
+            list-style: none;
+        }
+    }    
+    .servicios{
+        background-color: $negro;
+        text-align: center;
+        color: $blanco;        
+        border-radius: 5px;        
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+#nosotros{
+    background-color: $rojo;
+    color: $blanco;
+    img{
+        border-radius: 5px;
+    }  
+}
+#marcas{
+    background-color: $gris;
+    height: 150px;
+}
+#mapa{    
+    height: 450px;
+}
+
+footer{   
+    background-color: $negro;
+    h3{
+        color: $blanco;
+        font-family: $poppins;
+        font-weight: 600;    
+    }
+    hr{
+        background-color: $rojo;
+        width: 200px;
+        margin-left: 0%;
+        
+    }
+   
+    .c1{
+        img{
+            width: 120px;
+        }
+        span{      
+            p{
+                padding-top: 10px;
+                color: $gris;
+                font-family: $poppins;
+                font-weight: 900;
+                font-size: 14px;
+                line-height: 16px;            
+            }        
+        }
+    }
+    .c2{
+        img{            
+            width: 38px;
+            margin-left: 12px;
+        }
+        button{
+            margin-left: 10px;
+            margin-top: 3px;
+         ;
+        }
+     
+    }
+    .c3{
+        img{            
+            width: 38px;
+            margin-left: 12px;
+        }
+        p{              
+            padding: 0 0 0 20px;
+        }    
+    }
+    .c4{
+        img{
+            width: 36px;
+        }
+        .instagram{
+            min-width: 38px;
+            background-image: url("../media/instagram.png") no-repeat;
+            
+        }
+    }
+    
+}
+
+@mixin poppins ($size, $weight, $color){
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;    
+}
+
+.pf{
+    @include poppins (12px, $regular ,$gris)
+}
+.tf{
+    @include poppins (16px, $bold, $blanco)
+}
+.pfb{
+    @include poppins (14px, $regular ,$blanco)
+}
