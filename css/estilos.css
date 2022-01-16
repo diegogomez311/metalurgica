@@ -153,6 +153,8 @@ footer {
   color: #FFFFFF; }
   #contacto img {
     border-radius: 5px; }
+  #contacto p {
+    font-size: 18px; }
 
 .pf {
   font-size: 12px;
