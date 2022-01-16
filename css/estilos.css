@@ -80,6 +80,8 @@ body {
 
 #comunicate {
   background-color: #797979; }
+  #comunicate img {
+    width: 100%; }
 
 #destacados {
   background-color: #797979;

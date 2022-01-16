@@ -96,7 +96,10 @@ body{
     }
 }
 #comunicate{
-    background-color: $gris;   
+    background-color: $gris;
+    img{
+        width: 100%;
+    }   
 }
 #destacados{
     background-color: $gris;
