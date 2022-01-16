@@ -28,6 +28,50 @@ body{
         font-family: 500;
         font-size: 12px;
     }
+    .c1{
+        img{
+            width: 120px;
+        }
+        span{      
+            p{
+                padding-top: 10px;
+                color: $gris;
+                font-family: $poppins;
+                font-weight: 900;
+                font-size: 14px;
+                line-height: 16px;            
+            }        
+        }
+    }
+    .c2{
+        img{            
+            width: 38px;
+            margin-left: 12px;
+        }
+        button{
+            margin-left: 10px;
+            margin-top: 3px;    
+        }
+    }
+    .c3{
+        img{            
+            width: 38px;
+            margin-left: 12px;
+        }
+        p{              
+            padding: 0 0 0 20px;
+        }    
+    }
+    .c4{
+        img{
+            width: 36px;
+        }
+        .instagram{
+            min-width: 38px;
+            background-image: url("../media/instagram.png") no-repeat;
+            
+        }
+    }
 }
 #nav{
     background-color: #F8F9FA;
@@ -146,52 +190,20 @@ footer{
         margin-left: 0%;
         
     }
-    .c1{
-        img{
-            width: 120px;
-        }
-        span{      
-            p{
-                padding-top: 10px;
-                color: $gris;
-                font-family: $poppins;
-                font-weight: 900;
-                font-size: 14px;
-                line-height: 16px;            
-            }        
-        }
-    }
-    .c2{
-        img{            
-            width: 38px;
-            margin-left: 12px;
-        }
-        button{
-            margin-left: 10px;
-            margin-top: 3px;    
-        }
-    }
-    .c3{
-        img{            
-            width: 38px;
-            margin-left: 12px;
-        }
-        p{              
-            padding: 0 0 0 20px;
-        }    
-    }
-    .c4{
-        img{
-            width: 36px;
-        }
-        .instagram{
-            min-width: 38px;
-            background-image: url("../media/instagram.png") no-repeat;
-            
-        }
-    }
+    
     
 }
+
+#contacto{
+    background-color: $rojo;
+    color: $blanco;
+    img{
+        border-radius: 5px;
+    }
+
+}
+
+
 
 @mixin poppins ($size, $weight, $color){
     font-size: $size;

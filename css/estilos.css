@@ -23,6 +23,31 @@ body {
     color: #FFFFFF;
     font-family: 500;
     font-size: 12px; }
+  body .c1 img {
+    width: 120px; }
+  body .c1 span p {
+    padding-top: 10px;
+    color: #797979;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px; }
+  body .c2 img {
+    width: 38px;
+    margin-left: 12px; }
+  body .c2 button {
+    margin-left: 10px;
+    margin-top: 3px; }
+  body .c3 img {
+    width: 38px;
+    margin-left: 12px; }
+  body .c3 p {
+    padding: 0 0 0 20px; }
+  body .c4 img {
+    width: 36px; }
+  body .c4 .instagram {
+    min-width: 38px;
+    background-image: url("../media/instagram.png") no-repeat; }
 
 #nav {
   background-color: #F8F9FA; }
@@ -122,31 +147,12 @@ footer {
     background-color: #ff0000;
     width: 200px;
     margin-left: 0%; }
-  footer .c1 img {
-    width: 120px; }
-  footer .c1 span p {
-    padding-top: 10px;
-    color: #797979;
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-size: 14px;
-    line-height: 16px; }
-  footer .c2 img {
-    width: 38px;
-    margin-left: 12px; }
-  footer .c2 button {
-    margin-left: 10px;
-    margin-top: 3px; }
-  footer .c3 img {
-    width: 38px;
-    margin-left: 12px; }
-  footer .c3 p {
-    padding: 0 0 0 20px; }
-  footer .c4 img {
-    width: 36px; }
-  footer .c4 .instagram {
-    min-width: 38px;
-    background-image: url("../media/instagram.png") no-repeat; }
+
+#contacto {
+  background-color: #ff0000;
+  color: #FFFFFF; }
+  #contacto img {
+    border-radius: 5px; }
 
 .pf {
   font-size: 12px;
