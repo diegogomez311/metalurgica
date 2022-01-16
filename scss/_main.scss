@@ -98,11 +98,13 @@ body{
     background-color: $rojo;
     img{
         width: 100%;
+        border-radius: 5px;
+        margin: 10px 0px;
     }   
 }
 #destacados{
     background-color: $negro;
-    padding: 20px 0px;
+    padding: 10px 0px;
     h4{
         font-family: $poppins;
         font-weight: 700;
@@ -125,7 +127,7 @@ body{
     }  
 }
 #marcas{
-    background-color: $negro;
+    background-color: $gris;
     height: 150px;
 }
 #mapa{    
@@ -208,10 +210,28 @@ footer{
 }
 
 
-/*
 @media only screen and (max-width: 768px) {
-    #industria{
+    .mxs{
         margin-top: 10px;
-        margin-bottom: 10px;  
     }
-}*/
+    #distinciones{
+        background-color: $gris;    
+        .card{
+            border: none;    
+            img{
+                height: 60px;
+                margin: 20px auto 0px auto;     
+            }
+            h4{
+                font-family: $poppins;           
+                font-weight: 700;
+                font-size: 14px;
+                text-align: center;
+                line-height: 20px;
+            }
+            p{
+                display: none;
+            }
+        }
+    } 
+}

@@ -80,11 +80,13 @@ body {
 #comunicate {
   background-color: #ff0000; }
   #comunicate img {
-    width: 100%; }
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0px; }
 
 #destacados {
   background-color: #000000;
-  padding: 20px 0px; }
+  padding: 10px 0px; }
   #destacados h4 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -104,7 +106,7 @@ body {
     border-radius: 5px; }
 
 #marcas {
-  background-color: #000000;
+  background-color: #797979;
   height: 150px; }
 
 #mapa {
@@ -161,10 +163,21 @@ footer {
   font-weight: 400;
   color: #FFFFFF; }
 
-/*
 @media only screen and (max-width: 768px) {
-    #industria{
-        margin-top: 10px;
-        margin-bottom: 10px;  
-    }
-}*/
+  .mxs {
+    margin-top: 10px; }
+  #distinciones {
+    background-color: #797979; }
+    #distinciones .card {
+      border: none; }
+      #distinciones .card img {
+        height: 60px;
+        margin: 20px auto 0px auto; }
+      #distinciones .card h4 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        line-height: 20px; }
+      #distinciones .card p {
+        display: none; } }
