@@ -132,7 +132,9 @@ body {
 
 #marcas {
   background-color: #797979;
-  height: 150px; }
+  padding: 10px 0px; }
+  #marcas img {
+    border-radius: 5px; }
 
 #mapa {
   height: 450px; }

@@ -172,7 +172,10 @@ body{
 }
 #marcas{
     background-color: $gris;
-    height: 150px;
+    padding: 10px 0px;
+    img{
+        border-radius: 5px;
+    } 
 }
 #mapa{    
     height: 450px;
