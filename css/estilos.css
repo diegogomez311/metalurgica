@@ -59,8 +59,7 @@ body {
     justify-content: center; }
 
 #distinciones {
-  background-color: #FFFFFF;
-  padding: 20px 0px; }
+  background-color: #FFFFFF; }
   #distinciones .card {
     border: none; }
     #distinciones .card img {
@@ -79,12 +78,12 @@ body {
       text-align: center; }
 
 #comunicate {
-  background-color: #797979; }
+  background-color: #ff0000; }
   #comunicate img {
     width: 100%; }
 
 #destacados {
-  background-color: #797979;
+  background-color: #000000;
   padding: 20px 0px; }
   #destacados h4 {
     font-family: "Poppins", sans-serif;

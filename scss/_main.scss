@@ -72,8 +72,7 @@ body{
     }
 }
 #distinciones{
-    background-color: $blanco;
-    padding: 20px 0px;
+    background-color: $blanco;    
     .card{
         border: none;    
         img{
@@ -96,13 +95,13 @@ body{
     }
 }
 #comunicate{
-    background-color: $gris;
+    background-color: $rojo;
     img{
         width: 100%;
     }   
 }
 #destacados{
-    background-color: $gris;
+    background-color: $negro;
     padding: 20px 0px;
     h4{
         font-family: $poppins;
