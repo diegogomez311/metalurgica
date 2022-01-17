@@ -166,6 +166,9 @@ body{
 #nosotros{
     background-color: $rojo;
     color: $blanco;
+    p{
+        font-size: 14px;
+    }
     img{
         border-radius: 5px;
     }  

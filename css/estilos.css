@@ -127,6 +127,8 @@ body {
 #nosotros {
   background-color: #ff0000;
   color: #FFFFFF; }
+  #nosotros p {
+    font-size: 14px; }
   #nosotros img {
     border-radius: 5px; }
 
