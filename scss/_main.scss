@@ -322,5 +322,12 @@ footer{
                 display: none;
             }
         }
-    }    
+    }
+    #productos{
+        .modal-body{
+            img{
+                width: 200px;
+            }
+        }
+    }  
 }
