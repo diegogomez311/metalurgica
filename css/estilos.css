@@ -134,6 +134,10 @@ body {
     font-size: 14px; }
   #nosotros img {
     border-radius: 5px; }
+  #nosotros .box {
+    background-color: #FFFFFF;
+    height: 80px;
+    border-radius: 5px; }
 
 #marcas {
   background-color: #797979;

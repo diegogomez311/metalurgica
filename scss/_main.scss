@@ -174,7 +174,12 @@ body{
     }
     img{
         border-radius: 5px;
-    }  
+    }
+    .box{
+        background-color: $blanco;
+        height: 80px;
+        border-radius: 5px;               
+    }
 }
 #marcas{
     background-color: $gris;
