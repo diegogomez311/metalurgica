@@ -124,6 +124,11 @@ body{
         flex-direction: column;
         justify-content: center;
     }
+    h2{
+        padding-top: 12px;
+        padding-bottom: 5px;
+        line-height: 16px;
+    }
 }
 #distinciones{
     background-color: $blanco;    
