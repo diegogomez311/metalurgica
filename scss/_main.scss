@@ -88,7 +88,7 @@ body{
 }
 #industria{
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
 
     img{
         border-radius: 5px;
@@ -130,6 +130,61 @@ body{
         line-height: 16px;
     }
 }
+#productos{   
+    
+    background-image: url(../media/bck.png);
+    background-size: cover;
+   
+    img{
+        border-radius: 5px;
+        width: 100%;          
+    }
+   
+    .productos{
+        background-color: $blanco;
+        border-radius: 5px;
+        text-align: center;
+        p{
+            color: $negro;
+            font-size: 14px;
+        }      
+        .productosBox{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        ul{
+            list-style: none;
+        }
+      
+    }    
+    .servicios{
+        background-color: $negro;
+        text-align: center;
+        color: $blanco;        
+        border-radius: 5px;        
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h2{
+        padding-top: 12px;
+        line-height: 16px;
+    }
+    button{
+        height: 25px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        font-family: $poppins;
+        font-weight: 600;    
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
 #distinciones{
     background-color: $blanco;    
     .card{
@@ -169,14 +224,7 @@ body{
         font-weight: 700;
         font-size: 16px;
         text-align: center;
-    }
-    p{
-        font-family: $poppins;
-        color: $negro;
-        font-weight: 400;
-        font-size: 14px;
-        text-align: center;
-    }
+    }   
 }
 #nosotros{
     background-color: $rojo;
