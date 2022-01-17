@@ -53,7 +53,12 @@ body {
   background-color: #F8F9FA; }
 
 #slide {
-  margin-top: 64px; }
+  margin-top: 64px;
+  background-color: #ff0000; }
+  #slide .slide {
+    padding: 5px 0px; }
+    #slide .slide img {
+      border-radius: 5px; }
 
 #industria {
   margin-top: 10px;

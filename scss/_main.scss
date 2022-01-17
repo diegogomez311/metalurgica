@@ -78,6 +78,13 @@ body{
 }
 #slide{
     margin-top: 64px;
+    background-color: $rojo;
+    .slide{
+        padding: 5px 0px;
+        img{
+            border-radius: 5px;
+        }
+    }
 }
 #industria{
     margin-top: 10px;
