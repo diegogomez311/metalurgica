@@ -72,13 +72,36 @@ body{
             
         }
     }
+    .social-links {
+        a {
+            font-size: 18px;
+            display: inline-block;
+            background: #222222;
+            color: #fff;
+            line-height: 1;
+            padding: 8px 0;
+            margin-right: 4px;
+            border-radius: 4px;
+            text-align: center;
+            width: 36px;
+            height: 36px;
+            transition: 0.3s;
+        }
+        a:hover {
+            background: $rojo;
+            color: $blanco;
+            text-decoration: none;
+        }
+        img{
+            width: 14px;
+            margin-bottom: 3px;
+        }
+    }
 }
-#nav{
-    background-color: #F8F9FA;
-}
+
 #slide{
     margin-top: 64px;
-    background-color: $rojo;
+    background-color: $gris;
     .slide{
         padding: 5px 0px;
         img{
@@ -130,16 +153,17 @@ body{
         line-height: 16px;
     }
 }
-#productos{   
-    
+#servicios{
     background-image: url(../media/bck.png);
-    background-size: cover;
-   
+    background-size: cover;  
+
     img{
         border-radius: 5px;
         width: 100%;          
     }
-   
+    button{
+        width: 50%;        
+    }
     .productos{
         background-color: $blanco;
         border-radius: 5px;
@@ -156,7 +180,47 @@ body{
         ul{
             list-style: none;
         }
-      
+    }    
+    .servicios{
+        background-color: $negro;
+        text-align: center;
+        color: $blanco;        
+        border-radius: 5px;        
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h2{
+        padding-top: 12px;
+        padding-bottom: 5px;
+        line-height: 16px;
+    }
+
+}
+#productos{       
+    background-image: url(../media/bck.png);
+    background-size: cover;   
+    img{
+        border-radius: 5px;
+        width: 100%;          
+    }   
+    .productos{
+        background-color: $blanco;
+        border-radius: 5px;
+        text-align: center;
+        p{
+            color: $negro;
+            font-size: 14px;
+        }      
+        .productosBox{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        ul{
+            list-style: none;
+        }      
     }    
     .servicios{
         background-color: $negro;
@@ -217,7 +281,8 @@ body{
     }   
 }
 #destacados{
-    background-color: $negro;
+    background-image: url(../media/bck.png);
+    background-size: cover; 
     padding: 10px 0px;
     h4{
         font-family: $poppins;
@@ -242,7 +307,7 @@ body{
     }
 }
 #marcas{
-    background-color: $gris;
+    background-color: #FF3333;
     padding: 10px 0px;
     img{
         border-radius: 5px;
@@ -263,9 +328,7 @@ footer{
         width: 200px;
         margin-left: 0%;
         
-    }
-    
-    
+    }   
 }
 
 #contacto{
@@ -277,10 +340,7 @@ footer{
     p{
         font-size: 18px;
     }
-
 }
-
-
 
 @mixin poppins ($size, $weight, $color){
     font-size: $size;

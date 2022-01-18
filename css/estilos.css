@@ -48,13 +48,30 @@ body {
   body .c4 .instagram {
     min-width: 38px;
     background-image: url("../media/instagram.png") no-repeat; }
-
-#nav {
-  background-color: #F8F9FA; }
+  body .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #222222;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s; }
+  body .social-links a:hover {
+    background: #ff0000;
+    color: #FFFFFF;
+    text-decoration: none; }
+  body .social-links img {
+    width: 14px;
+    margin-bottom: 3px; }
 
 #slide {
   margin-top: 64px;
-  background-color: #ff0000; }
+  background-color: #797979; }
   #slide .slide {
     padding: 5px 0px; }
     #slide .slide img {
@@ -91,6 +108,41 @@ body {
     flex-direction: column;
     justify-content: center; }
   #industria h2 {
+    padding-top: 12px;
+    padding-bottom: 5px;
+    line-height: 16px; }
+
+#servicios {
+  background-image: url(../media/bck.png);
+  background-size: cover; }
+  #servicios img {
+    border-radius: 5px;
+    width: 100%; }
+  #servicios button {
+    width: 50%; }
+  #servicios .productos {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center; }
+    #servicios .productos p {
+      color: #000000;
+      font-size: 14px; }
+    #servicios .productos .productosBox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+    #servicios .productos ul {
+      list-style: none; }
+  #servicios .servicios {
+    background-color: #000000;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  #servicios h2 {
     padding-top: 12px;
     padding-bottom: 5px;
     line-height: 16px; }
@@ -163,7 +215,8 @@ body {
     margin: 10px 0px; }
 
 #destacados {
-  background-color: #000000;
+  background-image: url(../media/bck.png);
+  background-size: cover;
   padding: 10px 0px; }
   #destacados h4 {
     font-family: "Poppins", sans-serif;
@@ -184,7 +237,7 @@ body {
     border-radius: 5px; }
 
 #marcas {
-  background-color: #797979;
+  background-color: #FF3333;
   padding: 10px 0px; }
   #marcas img {
     border-radius: 5px; }
