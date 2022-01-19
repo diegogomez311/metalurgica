@@ -150,47 +150,45 @@ body {
     padding-bottom: 5px;
     line-height: 16px; }
 
-#productos img {
-  border-radius: 5px; }
-
-#productos .productos {
-  background-color: #FFFFFF;
-  border-radius: 5px;
-  text-align: center; }
-  #productos .productos p {
-    color: #000000;
-    font-size: 14px; }
-  #productos .productos .productosBox {
+#productos {
+  background-image: url(../media/bck.png);
+  background-size: cover; }
+  #productos img {
+    border-radius: 5px; }
+  #productos .productos {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center; }
+    #productos .productos p {
+      color: #000000;
+      font-size: 14px; }
+    #productos .productos .productosBox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+    #productos .productos ul {
+      list-style: none; }
+  #productos .servicios {
+    background-color: #000000;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center; }
-  #productos .productos ul {
-    list-style: none; }
-
-#productos .servicios {
-  background-color: #000000;
-  text-align: center;
-  color: #FFFFFF;
-  border-radius: 5px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-
-#productos h2 {
-  padding-top: 12px;
-  line-height: 16px; }
-
-#productos button {
-  height: 25px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600; }
-
-#productos a {
-  text-decoration: none; }
+  #productos h2 {
+    padding-top: 12px;
+    line-height: 16px; }
+  #productos button {
+    height: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600; }
+  #productos a {
+    text-decoration: none; }
 
 #distinciones {
   background-color: #FFFFFF; }
