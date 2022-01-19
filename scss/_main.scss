@@ -111,7 +111,7 @@ body{
 }
 
 #contenedor{
-    background-image: url(../media/bg.jpg);
+    background-image: url(../media/bg-body.jpg);
     background-size: cover;
 }
 
@@ -204,12 +204,10 @@ body{
     }
 
 }
-#productos{       
-    background-image: url(../media/bck.png);
-    background-size: cover;   
+#productos{
+  
     img{
-        border-radius: 5px;
-        width: 100%;          
+        border-radius: 5px;        
     }   
     .productos{
         background-color: $blanco;
@@ -324,6 +322,7 @@ body{
 }
 footer{   
     background-color: $negro;
+    background-image: url(../media/footer-bg.png);
     h3{
         color: $blanco;
         font-family: $poppins;
@@ -345,6 +344,17 @@ footer{
     }
     p{
         font-size: 18px;
+    }
+}
+
+#wa{
+    a{
+        img{
+            width: 60px;
+            position: fixed;
+            bottom: 200px;
+            right: 30px;
+        }
     }
 }
 
