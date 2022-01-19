@@ -79,7 +79,7 @@ body{
         a {
             font-size: 18px;
             display: inline-block;
-            background: #222222;
+            background: $gris;
             color: #fff;
             line-height: 1;
             padding: 8px 0;
@@ -313,18 +313,33 @@ body{
 }
 #nosotros{
     background-color: $rojo;
-    color: $blanco;
+    padding-top: 10px;
+    padding-bottom:10px;
+    h1{
+        font-family: $poppins;
+        color: $blanco;
+        font-size: 30px;
+        font-weight: 200;
+    }
+    h2{
+        font-family: $poppins;
+        color: $blanco;
+        font-size: 20px;
+        font-weight: 600;
+    }
     p{
         font-size: 14px;
+        color: $blanco;
     }
     img{
         border-radius: 5px;
-    }
-    .box{
-        background-color: $blanco;
-        height: 80px;
-        border-radius: 5px;               
-    }
+        width: 95%;
+    }    
+}
+#box{
+    background-color: $blanco;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #marcas{
     background-color: #FF3333;
@@ -337,7 +352,7 @@ body{
     height: 450px;
 }
 footer{   
-    background-color: $negro;
+    background-color: #1d1e23;
     background-image: url(../media/footer-bg.png);
     h3{
         color: $blanco;
