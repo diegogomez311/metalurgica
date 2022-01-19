@@ -48,6 +48,8 @@ body {
   body .c4 .instagram {
     min-width: 38px;
     background-image: url("../media/instagram.png") no-repeat; }
+  body .social-links2 {
+    display: none; }
   body .social-links a {
     font-size: 18px;
     display: inline-block;
@@ -291,6 +293,8 @@ footer {
 @media only screen and (max-width: 768px) {
   .mxs {
     margin-top: 10px; }
+  .social-links2 {
+    visibility: hidden; }
   #distinciones {
     background-color: #797979; }
     #distinciones .card {
@@ -305,4 +309,4 @@ footer {
         text-align: center;
         line-height: 20px; }
       #distinciones .card p {
-        display: none; } }
+        display: hidden; } }

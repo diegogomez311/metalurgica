@@ -72,6 +72,9 @@ body{
             
         }
     }
+    .social-links2{
+        display: none;
+    }
     .social-links {
         a {
             font-size: 18px;
@@ -379,6 +382,9 @@ footer{
     .mxs{
         margin-top: 10px;
     }
+    .social-links2{
+        visibility: hidden;
+    }
     #distinciones{
         background-color: $gris;    
         .card{
@@ -395,7 +401,7 @@ footer{
                 line-height: 20px;
             }
             p{
-                display: none;
+                display: hidden;
             }
         }
     }    
