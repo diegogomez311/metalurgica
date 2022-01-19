@@ -116,10 +116,12 @@ body{
 #contenedor{
     background-image: url(../media/bg-body.jpg);
     background-size: cover;
+    
 }
 
-#industria{    
-
+#industria{ 
+    padding-bottom: 10px;
+ 
     img{
         border-radius: 5px;
         float: left;               
@@ -148,8 +150,8 @@ body{
         background-color: $negro;
         text-align: center;
         color: $blanco;        
-        border-radius: 5px;        
-        padding: 20px;
+        border-radius: 5px;       
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -392,7 +394,12 @@ footer{
 @media only screen and (max-width: 768px) {  
     .mxs{
         margin-top: 10px;
-    }  
+    }
+    #industria{      
+        .servicios{
+            margin-top: 10px;            
+        }
+    } 
     #distinciones{
         background-color: $gris;    
         .card{

@@ -81,41 +81,38 @@ body {
   background-image: url(../media/bg-body.jpg);
   background-size: cover; }
 
-#industria img {
-  border-radius: 5px;
-  float: left; }
-
-#industria button {
-  width: 50%; }
-
-#industria .productos {
-  background-color: #FFFFFF;
-  border-radius: 5px;
-  text-align: center; }
-  #industria .productos p {
-    color: #000000;
-    font-size: 14px; }
-  #industria .productos .productosBox {
+#industria {
+  padding-bottom: 10px; }
+  #industria img {
+    border-radius: 5px;
+    float: left; }
+  #industria button {
+    width: 50%; }
+  #industria .productos {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center; }
+    #industria .productos p {
+      color: #000000;
+      font-size: 14px; }
+    #industria .productos .productosBox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+    #industria .productos ul {
+      list-style: none; }
+  #industria .servicios {
+    background-color: #000000;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center; }
-  #industria .productos ul {
-    list-style: none; }
-
-#industria .servicios {
-  background-color: #000000;
-  text-align: center;
-  color: #FFFFFF;
-  border-radius: 5px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-
-#industria h2 {
-  padding-top: 12px;
-  padding-bottom: 5px;
-  line-height: 16px; }
+  #industria h2 {
+    padding-top: 12px;
+    padding-bottom: 5px;
+    line-height: 16px; }
 
 #servicios {
   background-image: url(../media/bck.png);
@@ -295,6 +292,8 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .mxs {
+    margin-top: 10px; }
+  #industria .servicios {
     margin-top: 10px; }
   #distinciones {
     background-color: #797979; }
