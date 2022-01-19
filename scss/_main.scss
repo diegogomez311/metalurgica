@@ -118,7 +118,8 @@ body{
 #industria{    
 
     img{
-        border-radius: 5px;                   
+        border-radius: 5px;
+        float: left;               
     }
     button{
         width: 50%;        
@@ -204,8 +205,7 @@ body{
 #productos{
   
     img{
-        border-radius: 5px;
-               
+        border-radius: 5px;               
     }   
     .productos{
         background-color: $blanco;

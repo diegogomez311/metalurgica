@@ -80,7 +80,8 @@ body {
   background-size: cover; }
 
 #industria img {
-  border-radius: 5px; }
+  border-radius: 5px;
+  float: left; }
 
 #industria button {
   width: 50%; }
