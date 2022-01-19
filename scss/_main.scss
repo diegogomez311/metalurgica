@@ -97,18 +97,24 @@ body{
             margin-bottom: 3px;
         }
     }
+    #slide{
+        margin-top: 64px;
+        
+        .slide{
+            padding: 5px 0px;
+            img{
+                border-radius: 5px;
+            }
+        }
+    }    
+    
 }
 
-#slide{
-    margin-top: 64px;
-    background-color: $gris;
-    .slide{
-        padding: 5px 0px;
-        img{
-            border-radius: 5px;
-        }
-    }
+#contenedor{
+    background-image: url(../media/bg.jpg);
+    background-size: cover;
 }
+
 #industria{
     margin-top: 10px;
     margin-bottom: 10px; 
@@ -273,7 +279,7 @@ body{
     }
 }
 #comunicate{
-    background-color: $rojo;
+    background-color: #E02220;
     img{
         width: 100%;
         border-radius: 5px;
