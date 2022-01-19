@@ -293,8 +293,6 @@ footer {
 @media only screen and (max-width: 768px) {
   .mxs {
     margin-top: 10px; }
-  .social-links2 {
-    visibility: hidden; }
   #distinciones {
     background-color: #797979; }
     #distinciones .card {
@@ -309,4 +307,4 @@ footer {
         text-align: center;
         line-height: 20px; }
       #distinciones .card p {
-        display: hidden; } }
+        display: none; } }

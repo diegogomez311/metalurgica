@@ -378,13 +378,11 @@ footer{
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {  
     .mxs{
         margin-top: 10px;
     }
-    .social-links2{
-        visibility: hidden;
-    }
+  
     #distinciones{
         background-color: $gris;    
         .card{
@@ -401,7 +399,7 @@ footer{
                 line-height: 20px;
             }
             p{
-                display: hidden;
+                display: none;
             }
         }
     }    
