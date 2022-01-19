@@ -210,7 +210,8 @@ body{
     background-size: cover; 
   
     img{
-        border-radius: 5px;               
+        border-radius: 5px;
+        width: 100%;              
     }   
     .productos{
         background-color: $blanco;
@@ -253,6 +254,16 @@ body{
     }
     a{
         text-decoration: none;
+    }
+    .modal-dialog{
+        .modal-content{
+            .modal-body{
+                img{
+                    width: 200px;
+                }
+            }
+        }
+
     }
 }
 

@@ -156,7 +156,8 @@ body {
   background-image: url(../media/bck.png);
   background-size: cover; }
   #productos img {
-    border-radius: 5px; }
+    border-radius: 5px;
+    width: 100%; }
   #productos .productos {
     background-color: #FFFFFF;
     border-radius: 5px;
@@ -191,6 +192,8 @@ body {
     font-weight: 600; }
   #productos a {
     text-decoration: none; }
+  #productos .modal-dialog .modal-content .modal-body img {
+    width: 200px; }
 
 #distinciones {
   background-color: #FFFFFF; }
