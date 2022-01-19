@@ -115,13 +115,10 @@ body{
     background-size: cover;
 }
 
-#industria{
-    margin-top: 10px;
-    margin-bottom: 10px; 
+#industria{    
 
     img{
-        border-radius: 5px;
-        width: 100%;          
+        border-radius: 5px;                   
     }
     button{
         width: 50%;        
@@ -207,7 +204,8 @@ body{
 #productos{
   
     img{
-        border-radius: 5px;        
+        border-radius: 5px;
+               
     }   
     .productos{
         background-color: $blanco;
