@@ -326,4 +326,5 @@ footer {
         display: none; }
   #box img {
     width: 80%;
-    text-align: center; } }
+    display: flex;
+    align-items: center; } }
