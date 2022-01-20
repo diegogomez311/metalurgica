@@ -323,4 +323,6 @@ footer {
         text-align: center;
         line-height: 20px; }
       #distinciones .card p {
-        display: none; } }
+        display: none; }
+  #box img {
+    width: 80%; } }
