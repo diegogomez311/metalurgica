@@ -325,4 +325,5 @@ footer {
       #distinciones .card p {
         display: none; }
   #box img {
-    width: 80%; } }
+    width: 80%;
+    text-align: center; } }
