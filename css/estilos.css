@@ -85,22 +85,10 @@ body {
   padding-bottom: 10px; }
   #industria img {
     border-radius: 5px;
-    float: left; }
+    float: left;
+    width: 100%; }
   #industria button {
     width: 50%; }
-  #industria .productos {
-    background-color: #FFFFFF;
-    border-radius: 5px;
-    text-align: center; }
-    #industria .productos p {
-      color: #000000;
-      font-size: 14px; }
-    #industria .productos .productosBox {
-      display: flex;
-      flex-direction: column;
-      justify-content: center; }
-    #industria .productos ul {
-      list-style: none; }
   #industria .servicios {
     background-color: #000000;
     text-align: center;
@@ -180,6 +168,10 @@ body {
   #productos h2 {
     padding-top: 12px;
     line-height: 16px; }
+  #productos h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem; }
   #productos button {
     height: 25px;
     display: flex;

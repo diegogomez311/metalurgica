@@ -124,28 +124,14 @@ body{
  
     img{
         border-radius: 5px;
-        float: left;               
+        float: left;
+        width: 100%;             
     }
     button{
         width: 50%;        
     }
-    .productos{
-        background-color: $blanco;
-        border-radius: 5px;
-        text-align: center;
-        p{
-            color: $negro;
-            font-size: 14px;
-        }      
-        .productosBox{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        ul{
-            list-style: none;
-        }
-    }    
+   
+   
     .servicios{
         background-color: $negro;
         text-align: center;
@@ -245,6 +231,11 @@ body{
     h2{
         padding-top: 12px;
         line-height: 16px;
+    }
+    h5{
+        font-family: $poppins;
+        font-weight: 400;
+        font-size: 1rem;
     }
     button{
         height: 25px;
