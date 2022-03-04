@@ -6,10 +6,18 @@ body {
     text-decoration: none; }
   body a:hover {
     color: #ff0000; }
+  body span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #797979; }
   body h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    font-size: 26px; }
+    font-size: 12px;
+    line-height: 14px;
+    color: #797979; }
   body h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
@@ -18,18 +26,22 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 16px; }
+  body h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px; }
   body p {
     font-family: "Poppins", sans-serif;
     color: #FFFFFF;
     font-family: 500;
     font-size: 12px; }
   body .c1 img {
-    width: 120px; }
+    width: 200px; }
   body .c1 span p {
-    padding-top: 10px;
+    padding-top: 8px;
     color: #797979;
     font-family: "Poppins", sans-serif;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 14px;
     line-height: 16px; }
   body .c2 img {
@@ -56,11 +68,10 @@ body {
     background: #797979;
     color: #fff;
     line-height: 1;
-    padding: 8px 0;
+    padding: 8px 10px;
     margin-right: 4px;
     border-radius: 4px;
     text-align: center;
-    width: 36px;
     height: 36px;
     transition: 0.3s; }
   body .social-links a:hover {
@@ -70,6 +81,9 @@ body {
   body .social-links img {
     width: 14px;
     margin-bottom: 3px; }
+  body .social-links span {
+    color: #FFFFFF;
+    font-size: 14px; }
   body #slide {
     margin-top: 64px; }
     body #slide .slide {
@@ -79,7 +93,11 @@ body {
 
 #contenedor {
   background-image: url(../media/bg-body.jpg);
-  background-size: cover; }
+  background-size: cover;
+  margin: -15px 0px; }
+  #contenedor .headerNav {
+    background-color: #000000;
+    height: 100px; }
 
 #industria {
   padding-bottom: 10px; }
@@ -138,6 +156,7 @@ body {
     line-height: 16px; }
 
 #productos {
+  padding-top: 70px;
   background-image: url(../media/bck.png);
   background-size: cover; }
   #productos img {
@@ -184,6 +203,74 @@ body {
   #productos .modal-dialog .modal-content .modal-body img {
     width: 200px; }
 
+#productosItem {
+  background-image: url(../media/bck.png);
+  background-size: cover;
+  margin-top: 70px; }
+  #productosItem img {
+    border-radius: 5px;
+    width: 100%; }
+  #productosItem .productos {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center; }
+    #productosItem .productos p {
+      color: #000000;
+      font-size: 14px; }
+    #productosItem .productos .productosBox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+    #productosItem .productos ul {
+      list-style: none; }
+    #productosItem .productos p {
+      font-size: 12px; }
+  #productosItem .servicios {
+    background-color: #000000;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  #productosItem h2 {
+    padding-top: 20px;
+    line-height: 16px; }
+  #productosItem h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem; }
+  #productosItem button {
+    height: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600; }
+  #productosItem a {
+    text-decoration: none; }
+  #productosItem .modal-dialog .modal-content .modal-body img {
+    width: 200px; }
+  #productosItem .card .btn:focus {
+    outline: 0;
+    box-shadow: none; }
+  #productosItem .card h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600; }
+  #productosItem .card .card-header {
+    padding: 0px; }
+  #productosItem .card .card-body {
+    padding: 10px; }
+  #productosItem .table {
+    border-radius: 6px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400; }
+    #productosItem .table th {
+      font-weight: 600; }
+
 #distinciones {
   background-color: #FFFFFF; }
   #distinciones .card {
@@ -212,13 +299,15 @@ body {
 
 #destacados {
   background-image: url(../media/bck.png);
-  background-size: cover;
-  padding: 10px 0px; }
+  background-size: cover; }
   #destacados h4 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 16px;
     text-align: center; }
+  #destacados a {
+    color: #000000;
+    text-decoration: none; }
 
 #nosotros {
   background-color: #ff0000;
@@ -245,6 +334,11 @@ body {
   background-color: #FFFFFF;
   padding-top: 20px;
   padding-bottom: 20px; }
+  #box h1 {
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600; }
 
 #marcas {
   background-color: #FF3333;
@@ -268,18 +362,35 @@ footer {
     margin-left: 0%; }
 
 #contacto {
-  background-color: #ff0000;
-  color: #FFFFFF; }
+  background-color: #FFFFFF;
+  color: #000000;
+  background-image: url(../media/bck.png);
+  background-size: cover; }
+  #contacto h1 {
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600; }
   #contacto img {
     border-radius: 5px; }
   #contacto p {
-    font-size: 18px; }
+    font-size: 18px;
+    color: #000000;
+    padding: 2px 5px; }
+  #contacto .date {
+    background-color: #FFFFFF;
+    border-radius: 5px; }
+  #contacto a img {
+    height: 50px; }
+  #contacto span {
+    color: #797979;
+    font-size: 14px; }
 
-#wa a img {
-  width: 60px;
+#wa1 a img {
+  width: 50px;
   position: fixed;
   bottom: 200px;
-  right: 30px; }
+  right: 0px; }
 
 .pf {
   font-size: 12px;
@@ -319,4 +430,14 @@ footer {
   #box img {
     width: 80%;
     display: flex;
-    align-items: center; } }
+    align-items: center; }
+  #productosItem .table {
+    font-family: "Poppins", sans-serif;
+    font-size: 8px;
+    font-weight: 400; }
+  #productosItem .card h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600; }
+  #productosItem p {
+    display: none; } }

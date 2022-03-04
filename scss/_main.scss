@@ -7,10 +7,19 @@ body{
     a:hover{
         color: $rojo;
     }
+    span{
+        font-family: $poppins;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+        color: $gris;
+    }
     h1{
         font-family: $poppins;
         font-weight: 600;
-        font-size: 26px;
+        font-size: 12px;
+        line-height: 14px;
+        color: $gris;
     }
     h2{
         font-family: $poppins;
@@ -22,6 +31,11 @@ body{
         font-weight: 400;
         font-size: 16px;    
     }
+    h6{
+        font-family: $poppins;
+        font-weight: 400;
+        font-size: 14px;       
+    }
     p{
         font-family: $poppins;
         color: $blanco;
@@ -30,14 +44,14 @@ body{
     }
     .c1{
         img{
-            width: 120px;
+            width: 200px;
         }
         span{      
             p{
-                padding-top: 10px;
+                padding-top: 8px;
                 color: $gris;
                 font-family: $poppins;
-                font-weight: 900;
+                font-weight: 600;
                 font-size: 14px;
                 line-height: 16px;            
             }        
@@ -82,11 +96,11 @@ body{
             background: $gris;
             color: #fff;
             line-height: 1;
-            padding: 8px 0;
+            padding: 8px 10px;
             margin-right: 4px;
             border-radius: 4px;
             text-align: center;
-            width: 36px;
+            
             height: 36px;
             transition: 0.3s;
         }
@@ -99,6 +113,10 @@ body{
             width: 14px;
             margin-bottom: 3px;
         }
+        span{
+            color: $blanco;
+            font-size: 14px;                        
+        }
     }
     #slide{
         margin-top: 64px;
@@ -109,19 +127,22 @@ body{
                 border-radius: 5px;
             }
         }
-    }    
+    }     
     
 }
 
 #contenedor{
     background-image: url(../media/bg-body.jpg);
     background-size: cover;
-    
+    margin: -15px 0px;
+    .headerNav{
+        background-color: $negro;
+        height: 100px;
+    } 
 }
 
 #industria{ 
-    padding-bottom: 10px;
- 
+    padding-bottom: 10px; 
     img{
         border-radius: 5px;
         float: left;
@@ -129,9 +150,7 @@ body{
     }
     button{
         width: 50%;        
-    }
-   
-   
+    }    
     .servicios{
         background-color: $negro;
         text-align: center;
@@ -148,6 +167,7 @@ body{
         line-height: 16px;
     }
 }
+
 #servicios{
     background-image: url(../media/bck.png);
     background-size: cover;  
@@ -194,9 +214,10 @@ body{
 
 }
 #productos{
+    padding-top: 70px;    
     background-image: url(../media/bck.png);
-    background-size: cover; 
-  
+    background-size: cover;
+
     img{
         border-radius: 5px;
         width: 100%;              
@@ -256,9 +277,105 @@ body{
                 }
             }
         }
-
     }
 }
+
+#productosItem{
+    background-image: url(../media/bck.png);
+    background-size: cover;
+    margin-top: 70px;
+
+    img{
+        border-radius: 5px;
+        width: 100%;              
+    }   
+    .productos{
+        background-color: $blanco;
+        border-radius: 5px;
+        text-align: center;
+        p{
+            color: $negro;
+            font-size: 14px;
+        }      
+        .productosBox{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        ul{
+            list-style: none;
+        } 
+        p{
+            font-size: 12px;
+        }    
+    }    
+    .servicios{
+        background-color: $negro;
+        text-align: center;
+        color: $blanco;        
+        border-radius: 5px;        
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h2{ 
+        padding-top: 20px;
+        line-height: 16px;
+    }
+    h5{
+        font-family: $poppins;
+        font-weight: 400;
+        font-size: 1rem;
+    }    
+    button{
+        height: 25px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        font-family: $poppins;
+        font-weight: 600;    
+    }
+    a{
+        text-decoration: none;
+    }
+    .modal-dialog{
+        .modal-content{
+            .modal-body{
+                img{
+                    width: 200px;
+                }
+            }
+        }
+    }
+    .card{
+        .btn:focus {
+            outline: 0;
+            box-shadow:none;
+        }         
+        h3{
+            font-family: $poppins;
+            font-size: 14px;
+            font-weight: 600;
+        }    
+        .card-header {
+            padding: 0px;
+        }        
+        .card-body{
+            padding: 10px;
+        }
+    } 
+    .table{
+        border-radius: 6px;
+        th{
+            font-weight: 600;           
+        }
+        font-family: $poppins;
+        font-size: 12px;
+        font-weight: 400;
+    }  
+}
+
 
 #distinciones{
     background-color: $blanco;    
@@ -283,6 +400,7 @@ body{
         }
     }
 }
+
 #comunicate{
     background-color: #E02220;
     img{
@@ -291,16 +409,21 @@ body{
         margin: 10px 0px;
     }   
 }
+
 #destacados{
     background-image: url(../media/bck.png);
-    background-size: cover; 
-    padding: 10px 0px;
+    background-size: cover;    
+    
     h4{
         font-family: $poppins;
         font-weight: 700;
         font-size: 16px;
         text-align: center;
-    }   
+    }
+    a{
+        color:$negro;
+        text-decoration: none;
+    }
 }
 #nosotros{
     background-color: $rojo;
@@ -331,6 +454,13 @@ body{
     background-color: $blanco;
     padding-top: 20px;
     padding-bottom: 20px;
+    h1{
+        font-family: $poppins;
+        color: $negro;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
 }
 #marcas{
     background-color: #FF3333;
@@ -353,29 +483,51 @@ footer{
     hr{
         background-color: $rojo;
         width: 200px;
-        margin-left: 0%;
-        
+        margin-left: 0%;        
     }   
 }
 
 #contacto{
-    background-color: $rojo;
-    color: $blanco;
+    background-color: $blanco;
+    color: $negro;
+    background-image: url(../media/bck.png);
+    background-size: cover; 
+    h1{
+        font-family: $poppins;
+        color: $negro;
+        font-size: 30px;
+        font-weight: 600;
+    }
     img{
         border-radius: 5px;
     }
     p{
         font-size: 18px;
+        color: $negro;
+        padding: 2px 5px;
+    }
+    .date{
+        background-color: $blanco;
+        border-radius: 5px;    
+    }
+    a{  
+        img{
+            height: 50px;
+        }        
+    }
+    span{
+        color: $gris;
+        font-size: 14px;
     }
 }
 
-#wa{
-    a{
+#wa1{    
+    a{     
         img{
-            width: 60px;
+            width: 50px;
             position: fixed;
             bottom: 200px;
-            right: 30px;
+            right: 0px;
         }
     }
 }
@@ -432,5 +584,23 @@ footer{
             display: flex;
             align-items: center;
         }
-    }   
+    }
+    #productosItem{
+        .table{
+            font-family: $poppins;
+            font-size: 8px;
+            font-weight: 400;
+        }
+        .card{
+            
+            h3{
+                font-family: $poppins;
+                font-size: 12px;
+                font-weight: 600;
+            } 
+        }
+        p{
+            display: none;
+        }
+    }
 }
