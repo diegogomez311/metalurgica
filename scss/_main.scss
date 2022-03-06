@@ -1,5 +1,6 @@
 body{
-    background-color: $gris;
+    background-image: url(../media/img/bg-body.jpg);
+    background-size: contain;   
     a{
         color:$blanco;
         text-decoration: none;
@@ -16,20 +17,28 @@ body{
     }
     h1{
         font-family: $poppins;
+        color: $blanco;
+        font-size: 30px;
         font-weight: 600;
-        font-size: 12px;
-        line-height: 14px;
-        color: $gris;
+        text-align: center;
+        margin: 0px;
     }
     h2{
         font-family: $poppins;
-        font-weight: 800;
-        font-size: 18px;        
+        font-weight: 600;
+        font-size: 24px;
+        color: $blanco;       
     }
     h3{
         font-family: $poppins;
         font-weight: 400;
         font-size: 16px;    
+    }
+    h5{
+        font-family: $poppins;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.2rem;    
     }
     h6{
         font-family: $poppins;
@@ -41,50 +50,6 @@ body{
         color: $blanco;
         font-family: 500;
         font-size: 12px;
-    }
-    .c1{
-        img{
-            width: 200px;
-        }
-        span{      
-            p{
-                padding-top: 8px;
-                color: $gris;
-                font-family: $poppins;
-                font-weight: 600;
-                font-size: 14px;
-                line-height: 16px;            
-            }        
-        }
-    }
-    .c2{
-        img{            
-            width: 38px;
-            margin-left: 12px;
-        }
-        button{
-            margin-left: 10px;
-            margin-top: 3px;    
-        }
-    }
-    .c3{
-        img{            
-            width: 38px;
-            margin-left: 12px;
-        }
-        p{              
-            padding: 0 0 0 20px;
-        }    
-    }
-    .c4{
-        img{
-            width: 36px;
-        }
-        .instagram{
-            min-width: 38px;
-            background-image: url("../media/instagram.png") no-repeat;
-            
-        }
     }
     .social-links2{
         display: none;
@@ -118,31 +83,21 @@ body{
             font-size: 14px;                        
         }
     }
-    #slide{
-        margin-top: 64px;
-        
-        .slide{
-            padding: 5px 0px;
-            img{
-                border-radius: 5px;
-            }
-        }
-    }     
-    
+}/*CIERRE BODY*/
+
+/*SLIDEY*/
+#slide{
+    margin-top: 64px;
+    padding: 10px 0px;    
+    img{
+        border-radius: 5px;
+    }
 }
 
-#contenedor{
-    background-image: url(../media/bg-body.jpg);
-    background-size: cover;
-    margin: -15px 0px;
-    .headerNav{
-        background-color: $negro;
-        height: 100px;
-    } 
-}
-
-#industria{ 
-    padding-bottom: 10px; 
+/*LIKS*/
+#links{
+    background-color: $rojo;
+    padding: 10px 0px; 
     img{
         border-radius: 5px;
         float: left;
@@ -151,12 +106,11 @@ body{
     button{
         width: 50%;        
     }    
-    .servicios{
+    .carreras{
         background-color: $negro;
         text-align: center;
         color: $blanco;        
-        border-radius: 5px;       
-        
+        border-radius: 5px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -168,222 +122,15 @@ body{
     }
 }
 
-#servicios{
-    background-image: url(../media/bck.png);
-    background-size: cover;  
-
-    img{
-        border-radius: 5px;
-        width: 100%;          
-    }
-    button{
-        width: 50%;        
-    }
-    .productos{
-        background-color: $blanco;
-        border-radius: 5px;
-        text-align: center;
-        p{
-            color: $negro;
-            font-size: 14px;
-        }      
-        .productosBox{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        ul{
-            list-style: none;
-        }
-    }    
-    .servicios{
-        background-color: $negro;
-        text-align: center;
-        color: $blanco;        
-        border-radius: 5px;        
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    h2{
-        padding-top: 12px;
-        padding-bottom: 5px;
-        line-height: 16px;
-    }
-
-}
-#productos{
-    padding-top: 70px;    
-    background-image: url(../media/bck.png);
-    background-size: cover;
-
-    img{
-        border-radius: 5px;
-        width: 100%;              
-    }   
-    .productos{
-        background-color: $blanco;
-        border-radius: 5px;
-        text-align: center;
-        p{
-            color: $negro;
-            font-size: 14px;
-        }      
-        .productosBox{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        ul{
-            list-style: none;
-        }      
-    }    
-    .servicios{
-        background-color: $negro;
-        text-align: center;
-        color: $blanco;        
-        border-radius: 5px;        
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    h2{
-        padding-top: 12px;
-        line-height: 16px;
-    }
-    h5{
-        font-family: $poppins;
-        font-weight: 400;
-        font-size: 1rem;
-    }
-    button{
-        height: 25px;
-        display: flex;
-        align-items: center;
-        margin-bottom: 10px;
-        font-family: $poppins;
-        font-weight: 600;    
-    }
-    a{
-        text-decoration: none;
-    }
-    .modal-dialog{
-        .modal-content{
-            .modal-body{
-                img{
-                    width: 200px;
-                }
-            }
-        }
-    }
-}
-
-#productosItem{
-    background-image: url(../media/bck.png);
-    background-size: cover;
-    margin-top: 70px;
-
-    img{
-        border-radius: 5px;
-        width: 100%;              
-    }   
-    .productos{
-        background-color: $blanco;
-        border-radius: 5px;
-        text-align: center;
-        p{
-            color: $negro;
-            font-size: 14px;
-        }      
-        .productosBox{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        ul{
-            list-style: none;
-        } 
-        p{
-            font-size: 12px;
-        }    
-    }    
-    .servicios{
-        background-color: $negro;
-        text-align: center;
-        color: $blanco;        
-        border-radius: 5px;        
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    h2{ 
-        padding-top: 20px;
-        line-height: 16px;
-    }
-    h5{
-        font-family: $poppins;
-        font-weight: 400;
-        font-size: 1rem;
-    }    
-    button{
-        height: 25px;
-        display: flex;
-        align-items: center;
-        margin-bottom: 10px;
-        font-family: $poppins;
-        font-weight: 600;    
-    }
-    a{
-        text-decoration: none;
-    }
-    .modal-dialog{
-        .modal-content{
-            .modal-body{
-                img{
-                    width: 200px;
-                }
-            }
-        }
-    }
-    .card{
-        .btn:focus {
-            outline: 0;
-            box-shadow:none;
-        }         
-        h3{
-            font-family: $poppins;
-            font-size: 14px;
-            font-weight: 600;
-        }    
-        .card-header {
-            padding: 0px;
-        }        
-        .card-body{
-            padding: 10px;
-        }
-    } 
-    .table{
-        border-radius: 6px;
-        th{
-            font-weight: 600;           
-        }
-        font-family: $poppins;
-        font-size: 12px;
-        font-weight: 400;
-    }  
-}
-
-
-#distinciones{
-    background-color: $blanco;    
+/*FEATURED*/
+#featured{
+    background-color: $negro;    
+    padding: 10px 0px;
     .card{
         border: none;    
         img{
             height: 60px;
-            margin: 20px auto 0px auto;     
+            margin: 20px auto;     
         }
         h4{
             font-family: $poppins;           
@@ -398,26 +145,29 @@ body{
             font-size: 14px;
             text-align: center;
         }
-    }
+    }    
 }
 
-#comunicate{
+/*LIKS2*/
+#links2{
     background-color: #E02220;
+    padding: 10px 0px;
     img{
         width: 100%;
-        border-radius: 5px;
-        margin: 10px 0px;
+        border-radius: 5px;       
     }   
 }
 
+/*DESTACADOS*/
 #destacados{
-    background-image: url(../media/bck.png);
-    background-size: cover;    
+    background-image: url(../media/img/bck.png);
+    background-size: contain;
+    padding: 10px 0px;   
     
     h4{
         font-family: $poppins;
         font-weight: 700;
-        font-size: 16px;
+        font-size: 1rem;
         text-align: center;
     }
     a{
@@ -425,79 +175,132 @@ body{
         text-decoration: none;
     }
 }
-#nosotros{
-    background-color: $rojo;
-    padding-top: 10px;
-    padding-bottom:10px;
-    h1{
-        font-family: $poppins;
-        color: $blanco;
-        font-size: 30px;
-        font-weight: 200;
-    }
-    h2{
-        font-family: $poppins;
-        color: $blanco;
-        font-size: 20px;
-        font-weight: 600;
-    }
-    p{
-        font-size: 14px;
-        color: $blanco;
-    }
-    img{
-        border-radius: 5px;
-        width: 95%;
-    }    
-}
-#box{
-    background-color: $blanco;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    h1{
-        font-family: $poppins;
-        color: $negro;
-        font-size: 30px;
-        font-weight: 600;
-    }
 
+/*MAPA*/
+#mapa{
+    background-color: $rojo;
+    margin-bottom: -6px;
 }
-#marcas{
-    background-color: #FF3333;
-    padding: 10px 0px;
-    img{
-        border-radius: 5px;
-    } 
-}
-#mapa{    
-    height: 450px;
-}
+
+/*FOOTER*/
 footer{   
     background-color: #1d1e23;
-    background-image: url(../media/footer-bg.png);
+    background-image: url(../media/img/footer-bg.png);
+    background-size: cover;
+    padding: 20px 0px;
+    .c1{
+        img{
+            width: 200px;
+        }
+        span{      
+            p{
+                padding-top: 8px;
+                color: $gris;
+                font-family: $poppins;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 16px;            
+            }        
+        }
+    }
+    .c2{      
+        button{
+            margin-left: 15px;                
+        }
+    }
+    .c3{
+        img{            
+            width: 38px;
+            margin-left: 12px;
+        }
+        p{              
+            padding: 0 0 0 20px;
+        }    
+    }    
     h3{
         color: $blanco;
         font-family: $poppins;
         font-weight: 600;    
     }
     hr{
-        background-color: $rojo;
-        width: 200px;
-        margin-left: 0%;        
+        background-color: $rojo;           
     }   
 }
 
-#contacto{
-    background-color: $blanco;
-    color: $negro;
-    background-image: url(../media/bck.png);
-    background-size: cover; 
-    h1{
-        font-family: $poppins;
-        color: $negro;
-        font-size: 30px;
-        font-weight: 600;
+/*HEADH1*/
+
+.headh1{
+    background-color: $negro;
+    padding: 60px 0px;    
+    p{
+        font-size: 1.2rem;
+        margin: 0px 200px;
     }
+}
+
+.headh2{    
+    padding: 20px 0px;    
+    p{
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+/*MISION*/
+#mision{
+    background-color: $gris;
+    padding: 10px 0px;
+    p{
+        color: $negro;
+        font-family: $poppins;
+        font-size: 14px;
+    }    
+}
+
+/*EQUIPO*/
+#equipo{
+    background-color: $rojo;
+    padding: 10px 0px;
+    h2{
+        text-align: center;
+    }
+    p{
+        font-size: $poppins;
+        font-size: 14px;
+    }
+}
+
+#carreras{
+    background-color: $rojo;
+    padding: 10px 0px;
+    .jumbotron{
+        background-color: $grisClaro;
+        padding: 2rem 2rem;
+        p{
+            font-size: 14px;
+        }
+        .jum1{
+            background-color: $jum1;
+            border-radius: 5px;
+            padding: 10px 10px;
+        }
+        .jum2{
+            background-color: $jum2;
+            border-radius: 5px;
+            padding: 10px 10px;
+        }
+    }
+}
+
+#contacto{    
+    color: $negro;
+    background-image: url(../media/img/bck.png);
+    background-size: cover;
+    .jumbotron{
+        background-color: $grisClaro;
+        padding: 2rem 1rem;       
+    }
+    
     img{
         border-radius: 5px;
     }
@@ -520,6 +323,58 @@ footer{
         font-size: 14px;
     }
 }
+
+#login{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 200px;
+    background-color: $blanco;
+    margin-top: 64px;
+    h1{
+        color: $negro;
+    }
+    .form-signin {
+        width: 100%;
+        max-width: 330px;
+        padding: 15px;
+        margin: auto;
+        .checkbox {
+            font-weight: 400;
+        }
+        .form-control {
+            position: relative;
+            box-sizing: border-box;
+            height: auto;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .form-control:focus {
+            z-index: 2;
+        }
+        input[type="email"] {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        input[type="password"] {
+            margin-bottom: 10px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+    }    
+}
+
+
+/*--------------------------------------------------------------------*/
+
+
+
+
+
+
 
 #wa1{    
     a{     
@@ -553,6 +408,13 @@ footer{
     .mxs{
         margin-top: 10px;
     }
+    #headh1{        
+        padding: 40px 0px;    
+        p{
+            font-size: 1rem;
+            margin: 0px 20px;
+        }
+    }
     #industria{      
         .servicios{
             margin-top: 10px;            
@@ -585,22 +447,5 @@ footer{
             align-items: center;
         }
     }
-    #productosItem{
-        .table{
-            font-family: $poppins;
-            font-size: 8px;
-            font-weight: 400;
-        }
-        .card{
-            
-            h3{
-                font-family: $poppins;
-                font-size: 12px;
-                font-weight: 600;
-            } 
-        }
-        p{
-            display: none;
-        }
-    }
+ 
 }
